@@ -124,7 +124,7 @@ Returns:
 ```jsx
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 
-const SignIn = () => {
+const SignUp = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [
